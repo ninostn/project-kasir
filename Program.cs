@@ -243,11 +243,11 @@ namespace kasir
                                 if (int.TryParse(Console.ReadLine(), out int addSaldo) && addSaldo > 0)
                                 {
                                     userList.Saldo += addSaldo;
-                                    Console.WriteLine($"Saldo berhasil ditambahkan. Saldo baru {userList.Nama}: Rp {userList.Saldo}");
+                                    Console.WriteLine($"Saldo berhasil ditambahkan. Saldo {userList.Nama}: Rp {userList.Saldo}");
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Input tidak valid. Saldo harus berupa angka positif.");
+                                    Console.WriteLine("Input tidak valid.");
                                 }
                             }
                             else
